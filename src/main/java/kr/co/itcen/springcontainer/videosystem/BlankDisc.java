@@ -51,9 +51,7 @@ public class BlankDisc implements DigitalVideoDisc {
 
 	@Override
 	public void play() {
-		
-		System.out.println("Playing Movie " + studio +"'s " + title);
-
+		System.out.println("Playing Movie " + studio + "'s " + title);	
 	}
 
 	@Override

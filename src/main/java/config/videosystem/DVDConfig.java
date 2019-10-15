@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 import kr.co.itcen.springcontainer.videosystem.Avengers;
 import kr.co.itcen.springcontainer.videosystem.BlankDisc;
-import kr.co.itcen.springcontainer.videosystem.DigitalVideoDisc;
+
 
 @Configuration
 public class DVDConfig {
@@ -24,7 +24,7 @@ public class DVDConfig {
 		BlankDisc blankDisc = new BlankDisc();
 		blankDisc.setTitle("Avengers Infinity War");
 		blankDisc.setStudio("MARVEL");
-		blankDisc.setActors(Arrays.asList("로버트 다우니 주니어","크리스 에반스","조쉬 브롤린"));
+		blankDisc.setActors(Arrays.asList("Robert Downey Jr.", "Scarlett Johansson", " Chris Evans"));
 		
 		return blankDisc;
 	}
