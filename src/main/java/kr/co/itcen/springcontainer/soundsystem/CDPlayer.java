@@ -30,7 +30,7 @@ public class CDPlayer {
 	}
 	
 	// 와이어링4 : @Autowired + 일반 메소드
-	//@Autowired
+	// @Autowired
 	public void insertCompactDisc(CompactDisc compactDisc) {
 		this.compactDisc = compactDisc;
 	}
